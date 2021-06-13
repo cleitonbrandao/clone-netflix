@@ -54,11 +54,11 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgb(0, 0, 0,.50), rgb(0, 0, 0,.50)100%), url(../img/capa_horadeaventura.jpg);
 
-    height: 400px;
-    
+    height: 300px;
+    width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
 
     display: flex;
     flex-direction: column;
@@ -66,8 +66,8 @@ header nav a:hover {
     align-items: flex-start;
 }
 .filmprincipal .descricao {
-    margin-top: 10px;
-    margin-bottom: 90px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 
 }
 
@@ -82,9 +82,9 @@ header nav a:hover {
     display: flex;
     
     flex-direction:column;
-    background-size: 50%;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: start;
    
     height: 50%;
     margin-bottom: 1%;
@@ -112,5 +112,21 @@ header nav a:hover {
     margin-right: 8px;
 }
 .container {
-    margin: 8px;
+    margin: 1px;
+}
+
+.carousel-filmes {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.filmprincipal .container {
+    width: 70%;
+}
+
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
